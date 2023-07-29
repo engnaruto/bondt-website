@@ -1,0 +1,39 @@
+- text: Home
+  url: /#
+  submenu:
+    - text: Home V2
+      url: /home-V2
+- text: About
+  url: /about
+- text: Pages
+  url: /#
+  submenu:
+    - text: Services
+      url: /all-services
+    - text: Service Details
+      url: /service/social-media-marketing/
+    - text: Gallery
+      url: /gallery
+    - text: Testimonials
+      url: /testimonials
+- text: Pricing
+  url: /price
+- text: Blog
+  url: /#
+  submenu:
+    - text: Our Blog
+      url: /blog
+    - text: Category
+      url: /category/seo/
+    - text: Categories
+      url: /categories
+    - text: Author
+      url: /author/themeix
+    - text: Authors
+      url: /all-authors
+    - text: Single Blog
+      url: /seo/2018/12/04/technology-placeat-ipsum-libero.html
+    - text: 4O4
+      url: /4O4
+- text: Contact
+  url: /contact

@@ -1,0 +1,97 @@
+####################################################
+#
+# Welcome to Bizzcon Jekyll Template
+#
+# Product Link : https://themeix.com/product/bizzcon-jekyll-template/
+# Version : v1.1.0
+#
+####################################################
+
+# Site settings
+title: "Bizzcon - Jekyll Premim Theme"
+email: "themeix@gmail.com"
+logo_url: /assets/images/logo.png
+footer_logo_url: /assets/images/logo.png
+description: "Bizzcon is a responsive Jekyll template for your business website"
+keywords: "jekyll, minimal jekyll, jekyll theme, responsive jekyll, seo friendly blog, super fast blog, responsive"
+mailclimp_url: 'https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884'
+dribble_url: https://dribble.com/themeix
+facebook_url: https://facebook.com/themeix
+instagram_url: https://instagram.com/themeix
+youtube_url: https://youtube.com/themeix
+twitter_url: https://twitter.com/themeix_com
+linkedin_url: https://linkedin.com/themeix
+pinterest_url: https://pinterest.com/themeix
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-archives
+
+
+# Site configuration for the Jekyll 2 Pagination Gem
+pagination:
+  enabled: true
+  debug: true
+  collection: 'posts'
+  per_page: 15
+  permalink: '/pages/:num/' # Pages are simple html files 
+  title: ':title - page :num'
+  limit: 0 
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+  tag: ''
+  locale: '' 
+  trail: 
+    before: 2
+    after: 
+  extension: 'html'
+  indexpage: 'index'
+
+autopages:
+  enabled: true
+  categories: 
+    layouts: 
+      - 'category.html'
+    title: 'Category -  :cat'
+    permalink: '/category/:cat'
+  collections:
+    layouts: 
+      - 'category.html'
+    title: ' :coll' # :coll is replaced by the collection name
+    permalink: '/:coll/'
+    
+  
+  tags:
+    layouts: 
+      - 'tag.html'
+    title: 'Tag - :tag' # :tag is replaced by the tag name
+    permalink: '/tag/:tag'  
+      
+tag_page_layout: category
+tag_page_dir: tag
+tag_permalink_style: pretty
+
+jekyll-archives:
+  enabled: all
+  layout: category
+  permalinks:
+    category: '/category/:name/'
+ 
+collections:
+  authors:
+    output: true
+    permalink: /author/:path/
+  services:
+    output: true
+    permalink: /service/:path/
+    
+feed:
+  collections:
+    posts:
+      path: "/index.xml"
