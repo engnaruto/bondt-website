@@ -184,9 +184,18 @@ h6 {
 .bg-spacer{
 	padding:$spSmall 0;
 }
-.bg-2 {
+.bg-11 {
 	background-color: lighten( $primary, 46% );
 }
+
+.bg-1 {
+	background-color: $primary;
+}
+
+.bg-2 {
+	background-color: $secondary;
+}
+
 .sec-spacer{
 	padding-top:$spSmall;
 	padding-bottom:$spSmall;

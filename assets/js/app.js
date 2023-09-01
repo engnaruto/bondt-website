@@ -128,7 +128,7 @@
   new simpleParallax(image, {
     overflow: true,
     orientation: 'left',
-    delay: .6,
+    delay: 0.6,
     scale: 1.5,
     transition: 'cubic-bezier(0,0,0,1)'
   });
@@ -136,7 +136,7 @@
   new simpleParallax(image, {
     overflow: true,
     orientation: 'right',
-    delay: .6,
+    delay: 0.6,
     scale: 1.5,
     transition: 'cubic-bezier(0,0,0,1)'
   });
