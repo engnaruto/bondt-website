@@ -8177,6 +8177,41 @@ input#service-id:hover {
   color: #000000;
   font-weight: 400;
 }
+.service-feature .list-2 {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  padding-top: 24px;
+  flex-direction: column;
+  text-align: left;
+  list-style: none;
+}
+.service-feature .list-2 li {
+  display: block;
+  width: 100%;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  position: relative;
+}
+.service-feature .list-2 li:before {
+  content: "\f178";
+  position: absolute;
+  left: 0;
+  font-family: FontAwesome;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+.service-feature .list-2 .heading {
+  display: inline-block;
+  margin-top: 0;
+  font-size: 20px;
+}
+.service-feature .list-2 .text {
+  max-width: 400px;
+  color: #000000;
+  font-weight: 400;
+}
 .service-feature .action-group .btn-demo {
   padding: 13px 20px;
   background-color: #FFC200;

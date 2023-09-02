@@ -968,6 +968,47 @@ input#service-id:hover {
     }
   }
 
+  .list-2 {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    padding-top: 24px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
+
+    li {
+      display: block;
+      width: 100%;
+      padding-bottom: 12px;
+      padding-left: 40px;
+      position: relative;
+
+      &:before {
+        content: "\f178 ";
+        position: absolute;
+        left: 0;
+        font-family: FontAwesome;
+        color: $white;
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+
+    .heading {
+      display: inline-block;
+      margin-top: 0;
+      font-size: 20px;
+    }
+
+    .text {
+      max-width: 400px;
+      color: $secondary;
+      font-weight: $normal;
+    }
+  }
+
   .action-group {
     .btn-demo {
       padding: 13px 20px;
