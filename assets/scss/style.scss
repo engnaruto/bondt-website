@@ -3403,10 +3403,18 @@ input#service-id:hover {
   font-weight: 700;
 }
 
+.pricing-price-2 {
+  color: $secondary;
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+}
+
 .btn-pricing {
+  background-color: $primary;
   border: 1px solid lighten($primary, 14%);
   border-radius: $borderradius;
-  color: $primary;
+  color: $white;
   display: inline-block;
   padding: 10px 30px;
   font-size: 20px;
@@ -3418,13 +3426,13 @@ input#service-id:hover {
 
 .btn-pricing:hover,
 .btn-pricing:focus {
-  background-color: lighten($primary, 16%);
+  background-color: lighten($primary, 25%);
   color: $white;
   text-decoration: none;
 }
 
 .btn-pricing.is-featured {
-  background-color: $primary;
+  background-color: $secondary;
   color: $white;
 
   &:hover {
@@ -3437,7 +3445,7 @@ input#service-id:hover {
   background-color: $primary;
 
   &:hover {
-    background-color: lighten($primary, 16%);
+    background-color: lighten($secondary, 25%);
   }
 }
 

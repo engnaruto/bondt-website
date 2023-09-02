@@ -10076,10 +10076,18 @@ input#service-id:hover {
   font-weight: 700;
 }
 
+.pricing-price-2 {
+  color: #000000;
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+}
+
 .btn-pricing {
+  background-color: #FFC200;
   border: 1px solid #ffd347;
   border-radius: 4px;
-  color: #FFC200;
+  color: #fff;
   display: inline-block;
   padding: 10px 30px;
   font-size: 20px;
@@ -10091,13 +10099,13 @@ input#service-id:hover {
 
 .btn-pricing:hover,
 .btn-pricing:focus {
-  background-color: #ffd652;
+  background-color: #ffe180;
   color: #fff;
   text-decoration: none;
 }
 
 .btn-pricing.is-featured {
-  background-color: #FFC200;
+  background-color: #000000;
   color: #fff;
 }
 .btn-pricing.is-featured:hover {
@@ -10110,7 +10118,7 @@ input#service-id:hover {
 }
 .btn-pricing.is-featured:hover:hover,
 .btn-pricing.is-featured:active:hover {
-  background-color: #ffd652;
+  background-color: #404040;
 }
 
 .remote-content {
