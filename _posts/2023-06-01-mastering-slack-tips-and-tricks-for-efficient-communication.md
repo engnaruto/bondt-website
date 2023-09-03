@@ -4,7 +4,7 @@ layout: post
 title: "Mastering Slack: Tips and Tricks for Efficient Communication"
 description: "Slack tips and tricks - part 1"
 excerpt: "Slack tips and tricks - part 1"
-post_image: https://upload.wikimedia.org/wikipedia/commons/b/b9/Slack_Technologies_Logo.svg
+post_image: /assets/images/blog/slack-logo.png
 categories:
   - slack
   - productivity

@@ -4,7 +4,7 @@ date: 2023-06-03
 title: "Enhancing Performance with Intercom: Streamlining Communication for Optimal Results"
 description: "Learn more about how to enhance performance using Intercom"
 excerpt: "Learn more about how to enhance performance using Intercom"
-post_image: https://cdn.cdnlogo.com/logos/i/76/intercom.svg
+post_image: /assets/images/blog/intercom-logo.png
 categories:
   - intercom
   - productivity

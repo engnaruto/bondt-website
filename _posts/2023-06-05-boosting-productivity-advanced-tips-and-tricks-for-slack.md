@@ -4,7 +4,7 @@ date: 2023-06-05
 title: "Boosting Productivity: Advanced Tips and Tricks for Slack"
 description: "Slack tips and tricks - part 2"
 excerpt: "Slack tips and tricks - part 2"
-post_image: https://upload.wikimedia.org/wikipedia/commons/b/b9/Slack_Technologies_Logo.svg
+post_image: /assets/images/blog/slack-logo.png
 categories:
   - slack
   - productivity
