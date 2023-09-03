@@ -17,6 +17,9 @@ twitter_url: https://twitter.com/bondt_io
 #linkedin_url: https://linkedin.com/themeix
 #pinterest_url: https://pinterest.com/themeix
 
+twitter:
+  username: bondt_io
+  card: summary_large_image
 
 # Build settings
 markdown: kramdown
@@ -35,6 +38,14 @@ exclude:
   - LICENCE
 
 permalink: '/blog/:title/' # Pages are simple html files
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: "/assets/images/feature-image.png"
+        alt: "Bondt Logo"
 
 # Site configuration for the Jekyll 2 Pagination Gem
 pagination:
