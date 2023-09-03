@@ -4,6 +4,10 @@ email: "info@bondt.io"
 logo_url: /assets/images/logo-512.png
 footer_logo_url: /assets/images/logo-512.png
 description: "Bondt"
+baseurl: ""
+google_analytics_key: "G-VZVJQ86STS"
+google_maps_javascript_api_key:
+disqus_shortname:
 keywords: "bondt, slack, intercom, integration, sync, plugin, app, increase productivity, increase performance, weekly performance statistics"
 #dribble_url: https://dribble.com/themeix
 #facebook_url: https://facebook.com/themeix
