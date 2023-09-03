@@ -97,14 +97,6 @@ jekyll-archives:
   permalinks:
     category: '/category/:name/'
 
-collections:
-  authors:
-    output: true
-    permalink: /author/:path/
-  services:
-    output: true
-    permalink: /service/:path/
-
 feed:
   collections:
     posts:
