@@ -8102,6 +8102,17 @@ input#service-id:hover {
   object-fit: fill;
 }
 
+.coming-soon {
+  color: #fff;
+  margin-top: 24px;
+  margin-bottom: 6px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .service-feature {
   margin-left: 20px;
   display: flex;
