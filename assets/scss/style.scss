@@ -1703,12 +1703,16 @@ input#service-id:hover {
   .feature-image {
     width: 100%;
     height: auto;
+    min-height: 300px;
     position: relative;
     border-radius: $borderradius;
     background-color: lighten($primary, 46%);
     background-position: 50% 50%;
     -webkit-transition: opacity .2s ease;
     transition: opacity .2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .cat-badge {
@@ -4547,8 +4551,9 @@ input#service-id:hover {
 }
 
 .feature-image img {
+  padding: 10px;
   width: 100%;
-  min-height: 300px;
+  //min-height: 300px;
   object-fit: cover;
 }
 

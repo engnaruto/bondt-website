@@ -8758,11 +8758,15 @@ input#service-id:hover {
 .post-card .feature-image {
   width: 100%;
   height: auto;
+  min-height: 300px;
   position: relative;
   border-radius: 4px;
   background-color: #fffaeb;
   background-position: 50% 50%;
   transition: opacity 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .post-card .cat-badge {
   position: absolute;
@@ -10999,8 +11003,8 @@ input#service-id:hover {
 }
 
 .feature-image img {
+  padding: 10px;
   width: 100%;
-  min-height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
