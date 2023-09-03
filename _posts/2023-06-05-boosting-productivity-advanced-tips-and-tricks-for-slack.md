@@ -1,21 +1,16 @@
 ---
+layout: post
 date: 2023-06-05
 title: "Boosting Productivity: Advanced Tips and Tricks for Slack"
-description: "In addition to efficient communication, [Slack](https://slack.com/) offers a range of advanced features to boost productivity and streamline workflows.
-              In this second part of our article, we will explore some advanced tips and tricks to help you make the most of Slack's capabilities."
+description: "Slack tips and tricks - part 2"
+excerpt: "Slack tips and tricks - part 2"
+post_image: https://upload.wikimedia.org/wikipedia/commons/b/b9/Slack_Technologies_Logo.svg
 categories:
   - slack
   - productivity
-author_staff_member: tarek
-
-layout: post
-post_id: 8
-tags: [jekyll, update]
-author: Themeix
 featured: false
-excerpt: To by that a study a any god system apparently of all has when out those the anywhere the viewings view news .
 comments: false
-post_image: https://upload.wikimedia.org/wikipedia/commons/b/b9/Slack_Technologies_Logo.svg
+author_id: 1
 ---
 
 In addition to efficient communication, [Slack](https://slack.com/) offers a range of advanced features to boost productivity and streamline workflows. 
@@ -32,7 +27,7 @@ Tailor Slack's notifications to minimize distractions and focus on what matters 
 
 Take advantage of Slackbot, Slack's built-in assistant, to automate repetitive tasks. Here are a few ways to leverage its capabilities:
 
-- **Reminders**: Use **/remind** to schedule reminders for yourself or others.
+- **Reminders**: Use `/remind` to schedule reminders for yourself or others.
 - **Custom Responses**: Configure Slackbot to respond automatically to specific keywords or phrases.
 - **Automated Workflows**: Build custom workflows using Slack's Workflow Builder to automate processes like onboarding, approval workflows, or status updates.
 
@@ -40,11 +35,11 @@ Take advantage of Slackbot, Slack's built-in assistant, to automate repetitive t
 
 Locate specific messages, files, or conversations swiftly using Slack's advanced search operators:
 
-- **in:** Narrow down search results to specific channels, direct messages, or groups.
-- **from:** or **to:**: Search for messages sent by a specific user or to a specific user.
-- **before:** or **after:**: Find messages sent before or after a particular date.
-- **has:**: Look for messages that contain specific types of content like links, files, or reactions.
-- **in:thread**: Search for messages within a specific thread.
+- `in:` Narrow down search results to specific channels, direct messages, or groups.
+- `from:` or `to:`: Search for messages sent by a specific user or to a specific user.
+- `before:` or `after:`: Find messages sent before or after a particular date.
+- `has:`: Look for messages that contain specific types of content like links, files, or reactions.
+- `in:thread`: Search for messages within a specific thread.
 
 ## **4. Status Updates**
 

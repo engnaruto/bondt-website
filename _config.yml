@@ -1,12 +1,3 @@
-####################################################
-#
-# Welcome to Bizzcon Jekyll Template
-#
-# Product Link : https://themeix.com/product/bizzcon-jekyll-template/
-# Version : v1.1.0
-#
-####################################################
-
 # Site settings
 title: "Bondt"
 email: "info@bondt.io"
@@ -30,7 +21,16 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+permalink: '/blog/:title/' # Pages are simple html files
 
 # Site configuration for the Jekyll 2 Pagination Gem
 pagination:
@@ -40,38 +40,37 @@ pagination:
   per_page: 15
   permalink: '/pages/:num/' # Pages are simple html files 
   title: ':title - page :num'
-  limit: 0 
+  limit: 0
   sort_field: 'date'
   sort_reverse: true
   category: 'posts'
   tag: ''
-  locale: '' 
-  trail: 
+  locale: ''
+  trail:
     before: 2
-    after: 
+    after:
   extension: 'html'
   indexpage: 'index'
 
 autopages:
   enabled: true
-  categories: 
-    layouts: 
+  categories:
+    layouts:
       - 'category.html'
     title: 'Category -  :cat'
     permalink: '/category/:cat'
   collections:
-    layouts: 
+    layouts:
       - 'category.html'
     title: ' :coll' # :coll is replaced by the collection name
     permalink: '/:coll/'
-    
-  
+
   tags:
-    layouts: 
+    layouts:
       - 'tag.html'
     title: 'Tag - :tag' # :tag is replaced by the tag name
-    permalink: '/tag/:tag'  
-      
+    permalink: '/tag/:tag'
+
 tag_page_layout: category
 tag_page_dir: tag
 tag_permalink_style: pretty
@@ -81,7 +80,7 @@ jekyll-archives:
   layout: category
   permalinks:
     category: '/category/:name/'
- 
+
 collections:
   authors:
     output: true
@@ -89,7 +88,7 @@ collections:
   services:
     output: true
     permalink: /service/:path/
-    
+
 feed:
   collections:
     posts:

@@ -1,43 +1,38 @@
 ---
+date: 2023-06-01
+layout: post
 title: "Mastering Slack: Tips and Tricks for Efficient Communication"
-description: "Slack has become a vital tool for modern teams, revolutionizing the way we communicate and collaborate. 
-              In this article, we will explore some valuable tips and tricks to help you optimize your communication on Slack, ensuring efficient and effective team collaboration."
+description: "Slack tips and tricks - part 1"
+excerpt: "Slack tips and tricks - part 1"
+post_image: https://upload.wikimedia.org/wikipedia/commons/b/b9/Slack_Technologies_Logo.svg
 categories:
   - slack
   - productivity
-author_staff_member: tarek
-layout: post
-post_id: 8
-date: 2019-01-17 18:51:30 +0600
-tags: [jekyll, update]
-post_image: https://upload.wikimedia.org/wikipedia/commons/b/b9/Slack_Technologies_Logo.svg
-author: Themeix
 featured: false
-excerpt: To by that a study a any god system apparently of all has when out those the anywhere the viewings view news .
-comments: true
-author_id: 3
+comments: false
+author_id: 1
 ---
-![Slack Logo](https://upload.wikimedia.org/wikipedia/commons/b/b9/Slack_Technologies_Logo.svg)
 
 [Slack](https://slack.com/) has become a vital tool for modern teams, revolutionizing the way we communicate and collaborate. 
+
 In this article, we will explore some valuable tips and tricks to help you optimize your communication on Slack, ensuring efficient and effective team collaboration. Let's dive in!
 
 ## **1. Keyboard Shortcuts**
 
 Save time and navigate Slack like a pro by utilizing keyboard shortcuts. Here are some essential shortcuts to remember:
 
-- **Ctrl + /**: View the full list of keyboard shortcuts.
-- **Ctrl + K** or **Cmd + K**: Quickly jump to any channel, conversation, or thread.
-- **Alt + Shift + ↑/↓**: Navigate between channels or direct messages.
-- **↑/↓**: Scroll through message history in a channel or conversation.
-- **Shift + Esc**: Close the right-hand sidebar.
+- `Ctrl + /`: View the full list of keyboard shortcuts.
+- `Ctrl + K` or `Cmd + K`: Quickly jump to any channel, conversation, or thread.
+- `Alt + Shift + ↑/↓`: Navigate between channels or direct messages.
+- `↑/↓`: Scroll through message history in a channel or conversation.
+- `Shift + Esc`: Close the right-hand sidebar.
 
 ## **2. Starred Items and Mentions**
 
 Don't let important messages get lost in the chatter. Take advantage of starred items and mentions to stay organized:
 
 - **Starred Items**: Click the star icon next to messages, files, or links to mark them as important. Access all your starred items by selecting "Starred Items" in the sidebar.
-- **Mentions**: Ensure that you never miss a message directed at you by using the **@** symbol followed by your username. Slack will notify you when someone mentions you in a conversation or channel.
+- **Mentions**: Ensure that you never miss a message directed at you by using the `@` symbol followed by your username. Slack will notify you when someone mentions you in a conversation or channel.
 
 ## **3. Message Formatting**
 
