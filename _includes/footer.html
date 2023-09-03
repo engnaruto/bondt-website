@@ -17,6 +17,14 @@
               </div>
               <div class="col-sm-6 col-md-3">
                  <div class="footer-widget">
+                    <h3 class="heading">Categories</h3>
+                    {% for category in site.categories  limit:5 %}
+                    <a href="/categories/{{category[0]}}" class="link">{{category[0]}}</a>
+                    {% endfor %}
+                 </div>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <div class="footer-widget">
                     <h3 class="heading">Pages</h3>
                     <a href="/about" class="link">About</a>
                     <a href="/price" class="link">Pricing</a>
@@ -28,14 +36,6 @@
                     <h3 class="heading">Important Links</h3>
                     <a href="/privacy" class="link">Privacy Policy</a>
                     <a href="/terms" class="link">Terms & Services</a>
-                 </div>
-              </div>
-              <div class="col-sm-6 col-md-3">
-                 <div class="footer-widget">
-                    <h3 class="heading">Tags</h3>
-                    {% for tag in site.tags  limit:5 %}
-                    <a href="/tag/{{tag[0]}}" class="link">{{tag[0]}}</a>
-                     {% endfor %}
                  </div>
               </div>
            </div>
