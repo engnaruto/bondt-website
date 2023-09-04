@@ -8113,6 +8113,17 @@ input#service-id:hover {
   text-transform: uppercase;
 }
 
+.coming-soon-2 {
+  color: #FFC200;
+  margin-top: 24px;
+  margin-bottom: 6px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .service-feature {
   margin-left: 20px;
   display: flex;
