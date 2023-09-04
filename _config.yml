@@ -1,10 +1,11 @@
 # Site settings
 title: "Bondt"
 email: "info@bondt.io"
+url: "https://bondt.io"
+baseurl: ""
+description: "Bondt"
 logo_url: /assets/images/logo-512.png
 footer_logo_url: /assets/images/logo-512.png
-description: "Bondt"
-baseurl: ""
 google_analytics_key: "G-VZVJQ86STS"
 google_maps_javascript_api_key:
 disqus_shortname:
