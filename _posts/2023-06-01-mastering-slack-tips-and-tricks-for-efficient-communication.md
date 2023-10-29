@@ -5,7 +5,6 @@ title: "Mastering Slack: Tips and Tricks for Efficient Communication"
 description: "Slack tips and tricks - part 1"
 excerpt: "Slack tips and tricks - part 1"
 post_image: /assets/images/blog/slack-logo.png
-twitter_image: /assets/images/blog/slack-logo.png
 categories:
   - slack
   - productivity
