@@ -44,6 +44,7 @@ defaults:
   - scope:
       path: ""
     values:
+      twitter_image: "/assets/images/feature-image.png"
       image:
         path: "/assets/images/feature-image.png"
         alt: "Bondt Logo"
